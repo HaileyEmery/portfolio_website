@@ -1,0 +1,194 @@
+{
+    "courses":[
+        {
+            "name":"Software Testing", 
+            "code":"CS415",
+            "semester":"Spring 2024",
+            "school":"College of Natural Sciences",
+            "description":" Systematic approaches to software testing, theoretical foundations, and the current state of practice. Techniques and tools that improve software testing and overall development skills.",
+            "grade":"B",
+            "projects":[{}],
+            "skills":[{}]
+        },
+        {
+            "name":"Database Systems", 
+            "code":"CS430",
+            "semester":"Spring 2024",
+            "school":"College of Natural Sciences",
+            "description":"Database analysis, design, administration, implementation, hierarchical, network relational models; data sublanguages; query facilities.",
+            "grade":"C",
+            "projects":[{}],
+            "skills":[{}]
+        },
+        {
+            "name":"Senior Design Project II",
+            "code":"ECE402", 
+            "semester":"Spring 2024",
+            "school":"College of Engineering",
+            "description":"Advanced project, formal report, and oral presentation.",
+            "grade":"A",
+            "projects":[{"name":"Networking Automation Project", "link": "/Projects"}],
+            "skills":[{}]
+        },
+        {
+            "name":"Senior Design Project I",
+            "code":"ECE401", 
+            "semester":"Fall 2023",
+            "school":"College of Engineering",
+            "description":"Advanced project, seminar series, formal written report, and oral presentation.",
+            "grade":"A",
+            "projects":[{"name":"Networking Automation Project", "link": "/Projects"}],
+            "skills":[{}]
+        },
+        {
+            "name":"Modern CyberSecurity",
+            "code":"CS456", 
+            "semester":"Fall 2023",
+            "school":"College of Natural Sciences",
+            "description":"Contemporary cyber-security issues; techniques, programs, tools and methods for examining contemporary cyber-attacks and cyber-defenses.",
+            "grade":"B+",
+            "projects":[{}],
+            "skills":[{}]
+        },
+        {
+            "name":"Computer Networks and the Internet",
+            "code":"CS457", 
+            "semester":"Fall 2023",
+            "school":"College of Natural Sciences",
+            "description":" Principles of communications, local area networks, communication protocols, TCP/IP, and the Internet.",
+            "grade":"B-",
+            "projects":[{}],
+            "skills":[{}]
+        },
+        {
+            "name":"Embedded Systems and Machine Learning",
+            "code":"CS528", 
+            "semester":"Fall 2023",
+            "school":"College of Natural Sciences",
+            "description":"Machine learning for embedded computing systems; hardware/software optimizations for machine learning; hardware accelerators for deep learning; data reuse and sharing techniques; memory and network design for machine learning acceleration; anomaly detection and adversarial learning; advanced applications of machine learning in embedded applications.",
+            "grade":"C+",
+            "projects":[{}],
+            "skills":[{}]
+        },
+        {
+            "name":"Operating Systems",
+            "code":"CS370", 
+            "semester":"Spring 2023",
+            "school":"College of Natural Sciences",
+            "description":"Introduction to operating systems including memory organization, I/O control, multitasking, process control, coordination, and resource management.",
+            "grade":"A",
+            "projects":[{}],
+            "skills":[{}]
+        },
+        {
+            "name":"Introduction to Communications Principles",
+            "code":"ECE303", 
+            "semester":"Spring 2023",
+            "school":"College of Engineering",
+            "description":"Basic concepts in design and analysis of communication systems.",
+            "grade":"B+",
+            "projects":[{}],
+            "skills":[{}]
+        },
+        {
+            "name":"Linear System Analysis II",
+            "code":"ECE312", 
+            "semester":"Spring 2023",
+            "school":"College of Engineering",
+            "description":"Laplace and Z transforms, applications to modulation, filtering and sampling, state space representation.",
+            "grade":"C+",
+            "projects":[{}],
+            "skills":[{}]
+        },
+        {
+            "name":"Computer Organization and Architecture",
+            "code":"ECE452", 
+            "semester":"Spring 2023",
+            "school":"College of Engineering",
+            "description":"CPU design; microarchitecture; data path and control path; pipelining; memory system; I/O system; program optimization by system software/hardware.",
+            "grade":"B+",
+            "projects":[{}],
+            "skills":[{}]
+        },
+        {
+            "name":"Software Engineering",
+            "code":"CS314", 
+            "semester":"Fall 2022",
+            "school":"College of Natural Sciences",
+            "description":"Principles, concepts, and techniques associated with team-based development of large, complex software systems. Topics include teamwork, configuration management, project management, requirements engineering, and systematic testing techniques. Use software tools in the context of a Scrum-based Agile development project",
+            "grade":"B",
+            "projects":[{}],
+            "skills":[{}]
+        },
+        {
+            "name":"Systems Security",
+            "code":"CS356", 
+            "semester":"Fall 2022",
+            "school":"College of Natural Sciences",
+            "description":" Computer and system security, authentication, access control, malicious software, and software security.",
+            "grade":"C",
+            "projects":[{}],
+            "skills":[{}]
+        },
+        {
+            "name":"Introduction to Project Practices",
+            "code":"ECE232", 
+            "semester":"Fall 2022",
+            "school":"College of Engineering",
+            "description":"Development of project skills and professionalism within the electrical and computer engineering (ECE) discipline through individual and group project work guided by ECE industry leaders.",
+            "grade":"A",
+            "projects":[{}],
+            "skills":[{}]
+        },
+        {
+            "name":"Linear System Analysis I",
+            "code":"ECE311", 
+            "semester":"Fall 2022",
+            "school":"College of Engineering",
+            "description":" Continuous and discrete time signals and systems representations in time and frequency domain; time convolution.",
+            "grade":"C",
+            "projects":[{}],
+            "skills":[{}]
+        },
+        {
+            "name":"Digital System Design",
+            "code":"ECE451", 
+            "semester":"Fall 2022",
+            "school":"College of Engineering",
+            "description":" State machines with PLAs as controllers and small computers; timing and race elimination considerations; state and microprogramming implementation.",
+            "grade":"C",
+            "projects":[{}],
+            "skills":[{}]
+        },
+        {
+            "name":"Intro to Ordinary Differential Equations",
+            "code":"MATH340", 
+            "semester":"Summer2022",
+            "school":"College of Engineering",
+            "description":"First and second order equations, series, Laplace transforms, linear algebra, eigenvalues, first order systems of equations, numerical techniques.",
+            "grade":"B",
+            "projects":[{}],
+            "skills":[{}]
+        },
+        {
+            "name":"Introdction to Microcontrollers and IoT",
+            "code":"ECE251", 
+            "semester":"Spring 2022",
+            "school":"College of Engineering",
+            "description":" Microprocessor organization, Internet of Things (IoT) platforms, microprocessor coding using C and assembly language, I/O techniques, real-time interfaces, and applications.",
+            "grade":"C+",
+            "projects":[{}],
+            "skills":[{}]
+        },
+        {
+            "name":"Algorithms-Theory and Practice",
+            "code":"CS 320", 
+            "semester":"Fall 2021",
+            "school":"College of Natural Sciences",
+            "description":" Analysis, design, implementation and applications of algorithms.",
+            "grade":"B+",
+            "projects":[{}],
+            "skills":[{}]
+        }
+    ]
+}
