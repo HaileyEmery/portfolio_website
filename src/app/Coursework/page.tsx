@@ -5,6 +5,7 @@ export default function Coursework() {
   var jsonString = JSON.parse(fs.readFileSync("src/app/Coursework/relevant_coursework.json", 'utf-8'))
   const courseDataArray = jsonString.courses.map((course) => {
     return {
+      key: course.code,
       name: course.name,
       college: course.school,
       semester: course.semester,
@@ -15,8 +16,7 @@ export default function Coursework() {
 
 
   let courseList = courseDataArray.map((courseData) => 
-    <div>
-      
+    <div key={courseData.code}>
       <p className="font-semibold text-xl md:text-3xl lg:text-4xl">
         {courseData.name}
       </p>
