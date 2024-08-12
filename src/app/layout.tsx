@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Link from 'next/link';
+import { Analytics } from "@vercel/analytics/react"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -32,15 +33,14 @@ export default function RootLayout({
           </div>
 
           <div className="fixed left-0 bottom-0 w-full flex flex-wrap justify-evenly align-text-bottom border-t border-purple-800 bg-blue-200 pb-6 pt-8 backdrop-blur-2xl dark:border-purple-200 dark:bg-blue-800 dark:from-inherit">
-            <Link className="text-md" href="https:www.linkedin.com/in/HaileyEmery02">LinkedIn</Link>
+            <a className="text-md" href="https:www.linkedin.com/in/HaileyEmery02">LinkedIn</a>
             <p className="text-xl">Hailey Emery</p>
-            <Link className="text-md" href="https:www.github.com/HaileyEmery">Github</Link>
+            <a className="text-md" href="https:www.github.com/HaileyEmery">GitHub</a>
           </div>
           {children}
-        </div>
-
-        
-      </main>          
+        </div>       
+      </main>
+      <Analytics />          
       </body>
     </html>
   );
