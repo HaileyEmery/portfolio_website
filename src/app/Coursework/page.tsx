@@ -1,13 +1,44 @@
+import fs from 'fs'
+
 let CourseNameFormat="font-bold text-3xl md:text-3xl lg:text-5xl"
 export default function Coursework() {
-    return (
+  var jsonString = JSON.parse(fs.readFileSync("src/app/Coursework/relevant_coursework.json", 'utf-8'))
+  const courseDataArray = jsonString.courses.map((course) => {
+    return {
+      name: course.name,
+      college: course.school,
+      semester: course.semester,
+      description: course.description
+    }
+  }
+  )
+
+
+  let courseList = courseDataArray.map((courseData) => 
+    <div>
+      
+      <p className="font-semibold text-xl md:text-3xl lg:text-4xl">
+        {courseData.name}
+      </p>
+      <p className="font-semibold text-md md:text-lg lg:text-xl">
+        {courseData.college} - {courseData.semester}
+      </p>
+      <p className="text-md md:text-lg lg:text-xl">
+        {courseData.description}
+      </p>
+      <br />
+    </div>
+  );
+
+  return (
       <div className="flex flex-col gap-y-10">
         <br></br>
         <div>
-          <p className="font-bold text-5xl md:text-7xl lg:text-9xl ">Relevant Coursework</p>
+          <p className="font-bold text-4xl md:text-5xl lg:text-7xl ">Relevant Coursework</p>
         </div>
         <div>
-        <br></br>
+          {courseList}
+          {/* <br></br>
           <p className={CourseNameFormat}>Software Testing</p>
           <p className="font-semibold text-l md:text-xl lg:text-2xl">College of Natural Sciences - Spring 2024</p>
           <p className="text-l md:text-xl lg:text-2xl"></p>
@@ -43,7 +74,7 @@ export default function Coursework() {
           <p className={CourseNameFormat}>Computer Organization and Architecture</p>
           <p className="font-semibold text-l md:text-xl lg:text-2xl">College of Engineering - Spring 2023</p>
           <p className="text-l md:text-xl lg:text-2xl"></p>
-          <br></br>
+          <br></br> */}
         </div>
       </div>
   );
