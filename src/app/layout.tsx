@@ -33,9 +33,9 @@ export default function RootLayout({
           </div>
 
           <div className="fixed left-0 bottom-0 w-full flex flex-wrap justify-evenly align-text-bottom border-t border-purple-800 bg-blue-200 pb-6 pt-8 backdrop-blur-2xl dark:border-purple-200 dark:bg-blue-800 dark:from-inherit">
-            <a className="text-md" href="https:www.linkedin.com/in/HaileyEmery02">LinkedIn</a>
+            <Link className="text-md" href="https://www.linkedin.com/in/HaileyEmery02" rel="noopener" target="_blank">LinkedIn</Link>
             <p className="text-xl">Hailey Emery</p>
-            <a className="text-md" href="https:www.github.com/HaileyEmery">GitHub</a>
+            <Link className="text-md" href="https://www.github.com/HaileyEmery"  rel="noopener" target="_blank">GitHub</Link>
           </div>
           {children}
         </div>       
