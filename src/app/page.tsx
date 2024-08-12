@@ -2,6 +2,7 @@ import Link from 'next/link';
 export default function Page() {
   return (
       <div className="flex flex-col gap-y-10">
+        <br></br>
         <div>
           <p className="font-bold text-5xl md:text-7xl lg:text-9xl "> Hailey Emery</p>
         </div>
@@ -12,9 +13,11 @@ export default function Page() {
           <br></br>
           <p className="font-bold text-3xl md:text-3xl lg:text-5xl">Education</p>
           <br></br>
-          <p className="text-l md:text-xl lg:text-2xl"> <p className="font-bold">Bachelors of Science in Computer Science</p> Colorado State University - May 2024</p>
+          <p className="text-l md:text-xl lg:text-2xl font-bold">Bachelors of Science in Computer Science</p>
+          <p className="text-l md:text-xl lg:text-2xl"> Colorado State University - May 2024</p>
           <br></br>
-          <p className="text-l md:text-xl lg:text-2xl"> <p className="font-bold">Bachelors of Science in Computer Engineering</p> Colorado State University - May 2024</p>
+          <p className="text-l md:text-xl lg:text-2xl font-bold">Bachelors of Science in Computer Engineering</p>
+          <p className="text-l md:text-xl lg:text-2xl"> Colorado State University - May 2024</p>
         </div>
         <div>
           <br></br>
@@ -24,7 +27,6 @@ export default function Page() {
           <br></br>
           <Link href="/Projects" className="text-l md:text-xl lg:text-2xl"> Networking Automation Project </Link>
         </div>
-
        </div>
   );
 }

@@ -32,9 +32,9 @@ export default function RootLayout({
           </div>
         </div> */}
         <div className="z-10 w-full max-w-5xl items-center justify-between">
-          <div className="fixed left-0 top-0 w-full flex flex-wrap justify-between border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit">
-            <div className="text-lg ml-100 flex basis-full md:basis-1/12 justify-center">
-              <Link href="/" className="">HE</Link>
+          <div className="fixed left-0 top-0 w-full flex flex-wrap justify-between border-b border-purple-500 bg-gradient-to-blue-200 from-blue-100 pb-6 pt-8 backdrop-blur-2xl dark:border-purple-300 dark:bg-blue-500/30 dark:from-inherit">
+            <div className="ml-100 flex basis-full md:basis-1/12 justify-center">
+              <Link href="/" className="text-3xl font-extrabold">HE</Link>
             </div>
             <div className="flex basis-full md:basis-1/2 lg:basis-1/3 justify-around">
               <Link href="/Resume" className="text-bg"> Resume </Link>
@@ -43,10 +43,10 @@ export default function RootLayout({
             </div>
           </div>
 
-          <div className="fixed left-0 bottom-0 w-full flex flex-wrap justify-evenly border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit">
-            <Link href="https:www.linkedin.com/in/HaileyEmery02">LinkedIn</Link>
-            <p>Hailey Emery</p>
-            <Link href="https:www.github.com/HaileyEmery">Github</Link>
+          <div className="fixed left-0 bottom-0 w-full flex flex-wrap justify-evenly align-text-bottom border-t border-purple-500 bg-gradient-to-blue-200 from-blue-100 pb-6 pt-8 backdrop-blur-2xl dark:border-purple-300 dark:bg-blue-500/30 dark:from-inherit">
+            <Link className="text-md" href="https:www.linkedin.com/in/HaileyEmery02">LinkedIn</Link>
+            <p className="text-xl">Hailey Emery</p>
+            <Link className="text-md" href="https:www.github.com/HaileyEmery">Github</Link>
           </div>
           {children}
         </div>
