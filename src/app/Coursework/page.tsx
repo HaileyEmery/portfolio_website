@@ -1,5 +1,5 @@
 import fs from 'fs'
-import {formatting} from '/src/app/formatting.tsx'
+import {formatting} from '../formatting.tsx'
 let CourseNameFormat="font-bold text-3xl md:text-3xl lg:text-5xl"
 export default function Coursework() {
   var jsonString = JSON.parse(fs.readFileSync("src/app/Coursework/relevant_coursework.json", 'utf-8'))

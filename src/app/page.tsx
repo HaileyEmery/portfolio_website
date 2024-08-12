@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import {formatting} from '/src/app/formatting.tsx'
+import {formatting} from './formatting.tsx'
 
 export default function Page() {
   return (<>
