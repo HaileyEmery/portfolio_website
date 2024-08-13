@@ -17,7 +17,6 @@ export default function Page() {
       <p className={formatting.heading1}>
         Education
       </p>
-      <br />
       <p className={formatting.heading2}>
         Bachelors of Science in Computer Science 
       </p>
@@ -75,7 +74,6 @@ export default function Page() {
       <p className={formatting.heading1}> 
         Work Experience
       </p>
-      <br />
       <div>
         <p className={formatting.heading2}>
           Head Cashier - Lowes 
