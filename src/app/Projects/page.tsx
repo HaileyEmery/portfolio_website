@@ -46,15 +46,15 @@ export default function Projects() {
     </div>
     <div>
       <p className={formatting.heading1}>
-        Vision Breaks Project
+        Vision Breaks Scripts
       </p>
-      <p className={formatting.heading2}>
+      <p className={formatting.heading3}>
         Windows
       </p>
       <p className={formatting.normal}>
         A python script that opens the screensaver for 30 seconds every twenty minutes to provide the oppurtunity for regular vision breaks. 
       </p>
-      <pre className={formatting.normal}>
+      <pre className={formatting.code}>
         <code>
           {visionBreaksWindowsCode}
         </code>
