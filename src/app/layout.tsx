@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-      <main className=" flex min-h-screen flex-col items-center justify-between md:p-24 pt-24 pl-4 pr-4 sm:pl-12 sm:pr-12 bg-blue-100 dark:bg-blue-900 dark:from-inherit">
+      <main className=" flex min-h-screen flex-col items-center justify-between md:p-24 pt-24 pb-24 pl-4 pr-4 sm:pl-12 sm:pr-12 bg-blue-100 dark:bg-blue-900 dark:from-inherit">
       <div className="z-10 w-full max-w-5xl items-center justify-between">
           <div className="fixed left-0 top-0 w-full flex flex-wrap justify-between border-b border-purple-900 bg-blue-200 pb-4 pt-6 backdrop-blur-2xl dark:border-purple-200 dark:bg-blue-800 dark:from-inherit">
             <div className="ml-100 flex basis-full md:basis-1/12 justify-center">
